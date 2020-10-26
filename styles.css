@@ -1,0 +1,119 @@
+* {
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+}
+
+h1 {
+  color: white;
+  padding: 1rem;
+}
+
+h2 {
+  text-align: left;
+  padding: 1rem;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  color: red;
+}
+
+
+.page-header {
+  background-color: black;
+  padding: 1.5rem;
+
+}
+
+.header-img {
+  width: 10rem;
+}
+
+.player {
+  margin-bottom: 1.5rem;
+  height: 1.5rem;
+  opacity: :0;
+  visibility: hidden;
+
+}
+
+
+
+
+.swiper-container {
+    width: 600px;
+    height: 300px;
+    margin: 2rem;
+}
+
+:root {
+  --clr-primary: #651fff;
+  --clr-gray: #37474f;
+  --clr-gray-light: #b0bec5;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* profile card container */
+.container {
+  margin: 5rem;
+  overflow: hidden;
+  box-shadow: 0px 2px 8px 0px var(--clr-gray-light);
+  background-color: white;
+  text-align: center;
+  border-radius: 1rem;
+  position: relative;
+  width: 20rem;
+  margin: auto;
+
+
+
+}
+
+
+
+/* circle profile image on top */
+.snap-img {
+  width: 10rem;
+  clip-path: circle(3rem at center);
+  margin-top: 0.5rem;
+}
+
+/* name */
+.name {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* primary button at bottom */
+.btn {
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  padding: 1rem;
+  background-color: red;
+}
+/* primary button at bottom */
+
+  .btn:hover {
+    background-color: white;
+    color: red;
+    cursor:pointer
+  }
