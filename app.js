@@ -106,7 +106,7 @@ function step(y){
       let player = document.getElementById("player" + y)
       player.play()
       player.style.visibility = 'visible'
-      mpSdk.Camera.rotate(-360, 0, { speed: 36 })
+      mpSdk.Camera.rotate(-180, 0, { speed: 18 })
           .then(function() {
           console.log("Cam move complete")
           transinhibit = false
